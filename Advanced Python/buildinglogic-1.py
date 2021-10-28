@@ -19,6 +19,7 @@ def find_area(file_path):
     for item in items:
         area =area_triangle(item['base'],item['height'])
         print(f"base : {item['base']},height: {item['height']},area:{area}")
-        
+with open("area_of_triangle.csv","w")as f1:
+    f.write
 if __name__ == '__main__':
     find_area("sample.csv");
