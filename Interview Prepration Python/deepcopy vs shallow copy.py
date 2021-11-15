@@ -29,11 +29,13 @@ def avg_num():
         a.append(elem)
         avg =sum(a/n)
         print("The average numbers in the list are:",avg)
-m= int(input("Enter  m Numbers: "))
+'''m= int(input("Enter  m Numbers: "))
 M=set((input().split(',')))
-print(M)
 n= int(input("Enter n Numbers: "))
 N=set(input().split(','))
-print(N)
+res =N.difference(M)
+res=tuple(res)
+for i in res:
+    print(i)'''
 
-     
+[set(raw_input().split() for _ in range(4))]  

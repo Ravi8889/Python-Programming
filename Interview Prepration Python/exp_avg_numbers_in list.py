@@ -14,3 +14,10 @@ def call_avg_number(num):
         avg_num =sum_num / len(num)
     print("The average number of list is:",avg_num)
         
+''' Score's of Average Students '''
+def scores_avg():
+    n= int(input());
+    names  =[]
+    for i in range(n):
+        marks =(input("Enter student name:" ))
+        names *line =
