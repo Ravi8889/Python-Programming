@@ -1,0 +1,9 @@
+def add(*args):
+    print(" values are in number:",args)
+    print(type(args))
+    total =0;
+    for i in  args:
+        total += i;
+    print(total)
+add((12,15,14,18,19,78,89,85))
+        
