@@ -57,11 +57,32 @@ next(a)
 
 ## concatination of tuple
 t1 =(1,2,3)
-print(id(t1))
+
 t2=(4,5,6)
-print(id(t2))
+
 t3 =t1+t2
-t3 =t0
+t0 = t3
+print(id(t1))
+print(id(t2))
 print(id(t0))
 print("The Concatination of Tuple is: ",t3)
-
+## concatinatio of list
+l1 =[12,13,14]
+l2 =[15,19,17,18]
+l3 = l1.extend(l2)
+#l4 =l3
+print(l3)
+print("THe concatination of list",l3)
+print(id(l4))
+print(id(l3))
+print(id(l2))
+print(id(l1))
+### Factorial
+def factorial(n):
+    fact =1
+    while n >1:
+        fact = fact * n
+        n =n -1;
+    print("The factorial of a number is :", fact)
+    print(f"The Factorial of Number is {fact}")
+factorial(5)
